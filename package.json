@@ -1,6 +1,6 @@
 {
     "name": "@johannes.latzel/pagerank",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Zero-dependency, ESM-native weighted PageRank implementation for TypeScript",
     "license": "MIT",
     "author": "Johannes B. Latzel",
