@@ -1,7 +1,7 @@
 # @johannes.latzel/pagerank
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![npm](https://img.shields.io/npm/v/@johannes.latzel/pagerank)](https://www.npmjs.com/package/@johannes.latzel/pagerank)
+[![NPM](https://nodei.co/npm/@johannes.latzel/pagerank.svg?style=shields&data=n,v,u,d,s)](https://www.npmjs.com/package/@johannes.latzel/pagerank)
 [![version](https://img.shields.io/github/package-json/v/johanneslatzel/pagerank)](https://github.com/johanneslatzel/pagerank/releases)
 [![TypeScript](https://img.shields.io/badge/TypeScript-6.0-blue)](https://www.typescriptlang.org/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/johanneslatzel/pagerank/pulls)
