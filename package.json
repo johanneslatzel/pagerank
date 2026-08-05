@@ -1,6 +1,6 @@
 {
     "name": "@johannes.latzel/pagerank",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Zero-dependency, ESM-native weighted PageRank implementation for TypeScript",
     "license": "MIT",
     "author": "Johannes B. Latzel",
@@ -33,7 +33,8 @@
         "clean:pack": "rm -rf node_modules dist/ package-lock.json && npm cache clean --force && npm install && npm run verify && npm run build && npm pack",
         "clean:install": "rm -rf node_modules dist/ package-lock.json && npm cache clean --force && npm install && npm run verify",
         "docs": "docker run --rm -it -p 8000:8000 -v $PWD:/docs squidfunk/mkdocs-material",
-        "prepare": "husky"
+        "prepare": "husky",
+        "audit": "npm audit --audit-level=high"
     },
     "lint-staged": {
         "src/**/*.ts": [
