@@ -20,7 +20,7 @@ theme:
     repo: fontawesome/brands/github
 
 nav:
-  - Home: index.md
+  - Overview: index.md
   - Quickstart: quickstart.md
   - API Reference: api-reference.md
   - Architecture: architecture.md

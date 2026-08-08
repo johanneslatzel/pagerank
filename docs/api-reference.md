@@ -4,12 +4,12 @@
 
 ### `add(from, to, weight?)`
 
-Add or replace a directed edge. Both `from` and `to` are created implicitly if they don't already exist — no separate node registration needed. If the edge already exists its weight is **replaced** (not accumulated). Returns `this` for chaining.
+Add or replace a directed edge. Both `from` and `to` are created implicitly if they don't already exist. No separate node registration is needed. If the edge already exists its weight is **replaced** (not accumulated). Returns `this` for chaining.
 
 | Param | Type | Default | Description |
 |---|---|---|---|
-| `from` | `string` | — | Source node identifier |
-| `to` | `string` | — | Target node identifier |
+| `from` | `string` |  | Source node identifier |
+| `to` | `string` |  | Target node identifier |
 | `weight` | `number` | `1` | Edge weight |
 
 ### `remove(from, to)`
@@ -18,7 +18,7 @@ Remove a directed edge. No-op if it doesn't exist. The source and target nodes r
 
 ### `removeNode(id)`
 
-Remove a node and all its incident edges — both outgoing and incoming. No-op if the node doesn't exist. `size` decreases by one.
+Remove a node and all its incident edges, both outgoing and incoming. No-op if the node doesn't exist. `size` decreases by one.
 
 ### `rank(damping?, maxIter?, tol?)`
 
@@ -30,7 +30,7 @@ Compute weighted PageRank scores.
 | `maxIter` | `number` | `100` | Maximum iterations |
 | `tol` | `number` | `1e-6` | Convergence threshold |
 
-Returns `Map<string, number>` — node identifier to PageRank score.
+Returns `Map<string, number>` mapping node identifier to PageRank score.
 
 ### `clear()`
 

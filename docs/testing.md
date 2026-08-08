@@ -25,7 +25,7 @@ tests/
 
 ## Coverage
 
-100% required on statements, branches, functions, and lines — enforced via
+100% required on statements, branches, functions, and lines, enforced via the
 Vitest config. The `src/index.ts` barrel export is excluded from the threshold.
 
 ## Invariants checked in every rank test
@@ -42,7 +42,7 @@ The implementation is validated against exact solutions and published
 reference values from four authoritative sources. All graphs are defined
 inline via `fromEdges()` in [`tests/unit/rank/academic.test.ts`](https://github.com/johanneslatzel/pagerank/blob/main/tests/unit/rank/academic.test.ts).
 
-### Oregon State University — Math 390R/490R
+### Oregon State University, Math 390R/490R
 
 **Source:** [PageRank worked example (PDF)](https://web.engr.oregonstate.edu/~phamt3/Courses/W25-Math-390R-490R/PageRank-example.pdf)
 
@@ -60,9 +60,9 @@ No dangling nodes.
 | `d = 1` | `[6/17, 2/17, 3/17, 6/17]` | ≈ [0.3529, 0.1176, 0.1765, 0.3529] |
 | `d = 2/3` | `[201/652, 99/652, 132/652, 220/652]` | ≈ [0.3083, 0.1518, 0.2025, 0.3374] |
 
-### BYU ACME Lab — Problem 2 (unweighted)
+### BYU ACME Lab, Problem 2 (unweighted)
 
-**Source:** [The PageRank Algorithm — ACME Labs, Fig 1](https://labs.acme.byu.edu/Volume1/PageRank/PageRank.html)
+**Source:** [The PageRank Algorithm, ACME Labs, Fig 1](https://labs.acme.byu.edu/Volume1/PageRank/PageRank.html)
 
 ```
 a → b, a → c, a → d
@@ -76,9 +76,9 @@ Node `b` is dangling (no outgoing edges).
 |---------|--------------------------------------|
 | `d = 0.85` | `{a: 0.095758635, b: 0.274158285, c: 0.355924792, d: 0.274158285}` |
 
-### BYU ACME Lab — Weighted graph (Fig 3)
+### BYU ACME Lab, Weighted graph (Fig 3)
 
-**Source:** [The PageRank Algorithm — ACME Labs, Fig 3 / NetworkX example](https://labs.acme.byu.edu/Volume1/PageRank/PageRank.html)
+**Source:** [The PageRank Algorithm, ACME Labs, Fig 3 / NetworkX example](https://labs.acme.byu.edu/Volume1/PageRank/PageRank.html)
 
 ```
 a → b (w=2), a → c (w=1), a → d (w=1)
@@ -92,9 +92,9 @@ Node `b` is dangling.
 |---------|----------------------------------------|
 | `d = 0.85` | `{a: 0.0858848438, b: 0.2276927427, c: 0.3716732339, d: 0.3147491797}` |
 
-### MathWorks MATLAB — 6-node example
+### MathWorks MATLAB, 6-node example
 
-**Source:** [Use PageRank Algorithm to Rank Websites — MathWorks docs](https://se.mathworks.com/help/matlab/math/use-page-rank-algorithm-to-rank-websites.html)
+**Source:** [Use PageRank Algorithm to Rank Websites, MathWorks docs](https://se.mathworks.com/help/matlab/math/use-page-rank-algorithm-to-rank-websites.html)
 
 ```
 alpha → beta, alpha → epsilon

@@ -20,7 +20,7 @@ Zero-dependency weighted PageRank for TypeScript.
 
 ## Features
 
-- weighted Pagerank implementation with uniform teleportation
+- weighted PageRank implementation with uniform teleportation
 - minimal implementation without dependencies
 - typed and ESM-native
 
